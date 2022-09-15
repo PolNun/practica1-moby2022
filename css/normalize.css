@@ -1,0 +1,37 @@
+.scripsi-nav {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2em;
+}
+
+.scripsi-h1 {
+    font-weight: 800;
+    font-size: 3.5em;
+    background: linear-gradient(90deg, #0a416a 0%, #1688ab 0%, #076d96 30%, #39a3a2 70%, #51b59a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: fit-content;
+}
+
+.scripsi-p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #0a416a;
+}
+
+.scripsi-btn {
+    background-color: #0a416a;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.scripsi-btn:hover {
+    background-color: #51b59a;
+    color: #FFF;
+}
