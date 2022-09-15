@@ -74,7 +74,12 @@ body {
 /* aboutus-section */
 #aboutus-section {
     height: 100vh;
-    background-color: #0a416a;
+}
+
+/* contact-section */
+#contact-section {
+    height: max-content;
+    background-color: #f1f9ff;
 }
 
 @media screen and (max-width: 992px) {
@@ -99,7 +104,8 @@ body {
 @media screen and (max-width: 768px) {
     .scripsi-h1,
     .scripsi-h2,
-    .scripsi-h3 {
+    .scripsi-h3,
+    .scripsi-h4 {
         max-width: none;
         text-align: center;
     }
