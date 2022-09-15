@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .scripsi-h1,
+    .scripsi-h2,
+    .scripsi-h3 {
+        max-width: none;
+        text-align: center;
+    }
+
+    .scripsi-p {
+        max-width: none;
+        text-align: center;
+        margin: 1em 0 0 0;
+        font-size: 1em;
+    }
+
+    .project-overview-title {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .project-ul {
+        padding: 0;
+    }
+
+    .project-ul li {
+        margin-bottom: 1em;
+    }
+
+    .project-li {
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
+}
