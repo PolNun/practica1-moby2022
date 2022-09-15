@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px) {
+    .scripsi-nav {
+        position: sticky;
+    }
+
+    .main-btn-container {
+        flex-direction: column;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    #project-section {
+        height: 100ch;
+    }
+}
