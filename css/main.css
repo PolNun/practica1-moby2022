@@ -52,16 +52,12 @@ body {
 
 /* project-section */
 #project-section {
-    height: calc(100vh - 57px);
+    height: 90ch;
 }
 
 .project-li {
     color: #0a416a;
     font-weight: 500;
-}
-
-.project-overview-container {
-    height: 100%;
 }
 
 .project-overview-title {
@@ -77,7 +73,7 @@ body {
 
 /* aboutus-section */
 #aboutus-section {
-    height: calc(100vh - 57px);
+    height: 100vh;
     background-color: #0a416a;
 }
 
@@ -93,11 +89,14 @@ body {
     .logo-img {
         display: none;
     }
+
+    #project-section {
+        height: 100ch;
+    }
 }
 
 /* mobile view */
 @media screen and (max-width: 768px) {
-
     .scripsi-h1,
     .scripsi-h2,
     .scripsi-h3 {
@@ -130,5 +129,15 @@ body {
         margin: 0;
         list-style: none;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .scripsi-p {
+        font-size: 14px;
+    }
+
+    .scripsi-span {
+        font-size: 14px;
     }
 }
