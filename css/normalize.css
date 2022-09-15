@@ -1,6 +1,7 @@
 .scripsi-nav {
     font-family: 'Oleo Script', cursive;
     font-size: 2em;
+    position: absolute;
 }
 
 .scripsi-nav:hover {
@@ -28,18 +29,49 @@
     max-width: fit-content;
 }
 
-.scripsi-p {
-    font-size: 1.3em;
-    font-weight: 400;
+.scripsi-h2 {
+    font-weight: 600;
+    font-size: 3em;
+    background: linear-gradient(90deg, #0a416a 0%, #1688ab 0%, #076d96 30%, #39a3a2 70%, #51b59a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: fit-content;
+}
+
+.scripsi-h3 {
+    font-weight: 500;
+    font-size: 2.2em;
     color: #0a416a;
 }
+
+.scripsi-p {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #0a416a;
+}
+
+/* .scripsi-text-autoshow {
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scripsi-text-autoshow:hover {
+    white-space: normal;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
 
 .scripsi-btn {
     background-color: #0a416a;
     color: #fff;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 10px 20px;
     font-size: 1.3em;
     font-weight: 600;
@@ -57,7 +89,7 @@
     border: 1px solid #39a3a2;
     color: #39a3a2;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 10px 20px;
     font-size: 1.3em;
     font-weight: 600;
@@ -73,6 +105,7 @@
 
 .scripsi-fill-down {
     position: relative;
+    overflow: hidden;
 }
 
 .scripsi-fill-down::before {
@@ -92,4 +125,12 @@
 
 .scripsi-fill-down:hover {
     color: #0a416a;
+}
+
+.scripsi-scale {
+    transition: all 0.2s ease-in-out;
+}
+
+.scripsi-scale:hover {
+    transform: scale(1.05);
 }

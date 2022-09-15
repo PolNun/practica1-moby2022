@@ -8,22 +8,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Scripsi it</title>
     <link rel="shortcut icon" href="img/scripsi-img.ico" type="image/x-icon">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom">
         <div class="container-fluid">
-            <a class="scripsi-nav navbar-brand me-5 position-absolute d-none d-lg-block" href="#">Scripsi it</a>
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="scripsi-nav navbar-brand me-md-5" href="#main-section">Scripsi it</a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
-                    <a class="nav-link" aria-current="page" href="#">El proyecto</a>
+                    <a class="nav-link" aria-current="page" href="#project-section">El proyecto</a>
                     <a class="nav-link" href="#aboutus">Acerca de nosotros</a>
                     <a class="nav-link" href="#community">Comunidad</a>
                     <a class="nav-link" href="#helpcenter">Centro de ayuda</a>
@@ -33,29 +34,163 @@
     </nav>
 
     <main>
-        <section id="main">
-            <div class="container mt-4">
+        <!-- main-section -->
+        <section id="main-section">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <h1 class="scripsi-h1">Scripsi it</h1>
-                        <p class="scripsi-p mb-5">Scripsi it es una plataforma de escritura colaborativa que permite a los
-                            usuarios crear historias y compartir sus ideas con otros usuarios. Además, es posible organizar sus rutinas y tareas a coronar.</p>
-                            <div class="main-btn-container">
-                                <a href="#" class="scripsi-btn">Registrate, ¡es gratis!</a>
-                                <a href="#" class="scripsi-btn-secondary scripsi-fill-down">Bajá la app</a>
-                            </div>
+                        <p class="scripsi-p mb-4">Scripsi it es una plataforma de escritura colaborativa que permite a
+                            los
+                            usuarios crear historias y compartir sus ideas con otros usuarios. Además, ¡es posible
+                            organizar sus rutinas y tareas!
+                        </p>
+                        <div class="main-btn-container">
+                            <a href="#" class="scripsi-btn scripsi-scale">Registrate, ¡es gratis!</a>
+                            <a href="#" class="scripsi-btn-secondary scripsi-fill-down">Bajá la app</a>
+                        </div>
                     </div>
                     <div class="col-12 col-md-5 offset-md-1">
-                        <img class="logo-img mt-4 mt-md-0 scripsi-scale" src="img/scripsi-img.png" alt="Scripsi it" class="img-fluid">
+                        <img class="logo-img mt-4 mt-md-0 scripsi-scale" src="img/scripsi-img.png" alt="Scripsi it"
+                            title="Logo de Scripsi it" class="img-fluid">
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /main-section -->
+
+        <!-- project-section -->
+        <section id="project-section">
+            <div class="container">
+                <div class="row">
+                    <div class="project-overview-container col-12 mt-4">
+                        <h2 class="scripsi-h2 mb-2">El proyecto</h2>
+                        <div id="scripsi-carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h3 class="scripsi-h3 ms-md-4">¿De qué se trata?</h3>
+                                    <p class="scripsi-p ms-md-4">
+                                        <b><i>Scripsi it</i></b> (expresión en latín que literalmente se traduce como
+                                        «Yo lo escribí») se trata de una aplicación de <b>software orientado a la
+                                            productividad</b>
+                                        cuyo principal propósito es la toma de notas y definición de recordatorios para
+                                        agilizar las
+                                        tareas diarias (pero no limitado a estas) de sus usuarios, con una amplia
+                                        posibilidad de
+                                        adaptarse al contexto.
+                                        <br>
+                                        Es una aplicación multiplataforma en la cual los usuarios, ya sea en grupo o
+                                        individualmente, acuden para organizar sus rutinas y/o tareas a coronar, además
+                                        de
+                                        contar
+                                        con la posibilidad de realizar anotaciones rápidas o guardar extensas cadenas de
+                                        texto
+                                        con
+                                        diversos formatos en un espacio al alcance de sus dispositivos.
+                                        En su modalidad de uso básica, la aplicación cumpliría con la función de hacer
+                                        notas
+                                        sueltas y anotaciones temporales; modalidad que está limitada a poder crear
+                                        hasta
+                                        diez
+                                        notas de doscientos cincuenta caracteres cada una y definir hasta siete
+                                        recordatorios.
+                                        <br>
+                                        En su modalidad normal, a la que se accede a través de la creación de una cuenta
+                                        de usuario, las posibilidades se amplían.
+                                    </p>
+                                </div>
+                                <div class="carousel-item">
+                                    <h3 class="scripsi-h3 ms-md-4">¿Para qué funciona?</h3>
+                                    <p class="scripsi-p ms-md-4 mb-2">Los recordatorios y notas se pueden agrupar en
+                                        categorías
+                                        predefinidas. Las categorías son:</p>
+                                    <ul>
+                                        <li class="project-li">
+                                            Laborales:
+                                            <p class="scripsi-p mt-0">categoría que se vincula con rutinas puramente del
+                                                trabajo o proyectos
+                                                personales, con la posibilidad de añadir miembros y asignar tareas o
+                                                notas
+                                                (privadas o públicas) a los mismos para que estos puedan estar al tanto
+                                                de todo.
+                                            </p>
+                                        </li>
+                                        <li class="project-li">
+                                            Caseras:
+                                            <p class="scripsi-p mt-0">
+                                                son las típicas «notas del refrigerador», una categoría orientada a los
+                                                quehaceres de la casa, con posibilidad de asignar tareas o notas a otras
+                                                personas
+                                                como en la categoría anterior.
+                                            </p>
+                                        </li>
+                                        <li class="project-li">
+                                            Ocio:
+                                            <p class="scripsi-p mt-0">
+                                                categoría orientada al cumplimiento de lo que está fuera de los deberes
+                                                habituales, o simplemente ideas para el tiempo libre.
+                                            </p>
+                                        </li>
+                                        <li class="project-li">
+                                            Familiares:
+                                            <p class="scripsi-p mt-0">
+                                                similar a la categoría Laboral, se centra en la posibilidad de crear
+                                                grupos familiares y aprovechar la capacidad de asignar recordatorios,
+                                                notas o
+                                                tareas según criterios de cada usuario.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="carousel-item">
+                                    <h3 class="scripsi-h3 mb-2 ms-md-4">¿De qué se trata?</h3>
+                                    <p class="scripsi-p ms-md-4">
+                                        <b><i>Scripsi it</i></b> (expresión en latín que literalmente se traduce como
+                                        «Yo lo
+                                        escribí») se trata
+                                        de una aplicación de <b>software orientado a la productividad</b> cuyo principal
+                                        propósito
+                                        es
+                                        la toma de notas y definición de recordatorios para agilizar las tareas diarias
+                                        (pero no
+                                        limitado a estas) de sus usuarios, con una amplia posibilidad de adaptarse al
+                                        contexto.
+                                        Es una aplicación multiplataforma en la cual los usuarios, ya sea en grupo o
+                                        individualmente, acuden para organizar sus rutinas y/o tareas a coronar, además
+                                        de
+                                        contar
+                                        con la posibilidad de realizar anotaciones rápidas o guardar extensas cadenas de
+                                        texto
+                                        con
+                                        diversos formatos en un espacio al alcance de sus dispositivos.
+                                        En su modalidad de uso básica, la aplicación cumpliría con la función de hacer
+                                        notas
+                                        sueltas y anotaciones temporales; modalidad que está limitada a poder crear
+                                        hasta
+                                        diez
+                                        notas de doscientos cincuenta caracteres cada una y definir hasta siete
+                                        recordatorios.
+                                        En
+                                        su modalidad normal, a la que se accede a través de la creación de una cuenta de
+                                        usuario,
+                                        las posibilidades se amplían.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /project-section -->
+
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/48e10fc4fc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
