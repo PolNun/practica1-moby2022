@@ -15,3 +15,40 @@ body {
     width: 400px;
     height: 400px;
 }
+
+/* animation that scales 1.05 the element when hovering in and out */
+.scripsi-scale {
+    transition: all 0.2s ease-in-out;
+}
+
+.scripsi-scale:hover {
+    transform: scale(1.05);
+}
+
+.main-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-btn-container a {
+    margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-img {
+        display: none;
+    }
+
+    .main-btn-container {
+        flex-direction: column;
+    }
+
+    .scripsi-h1 {
+        max-width: none;
+        text-align: center;
+    }
+
+    .scripsi-p {
+        text-align: center;
+    }
+}
