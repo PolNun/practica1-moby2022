@@ -16,7 +16,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top border-bottom">
         <div class="container-fluid">
-            <a class="scripsi-nav navbar-brand me-md-5" href="#main-section">Scripsi it</a>
+            <a class="scripsi-nav p-lg-0 navbar-brand me-md-5" href="#main-section">Scripsi it</a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -25,9 +25,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav m-auto">
                     <a class="nav-link" aria-current="page" href="#project-section">El proyecto</a>
-                    <a class="nav-link" href="#aboutus">Acerca de nosotros</a>
-                    <a class="nav-link" href="#community">Comunidad</a>
-                    <a class="nav-link" href="#helpcenter">Centro de ayuda</a>
+                    <a class="nav-link" href="#aboutus-section">Nosotros</a>
+                    <a class="nav-link" href="#contact-section">Contacto</a>
+                    <a class="nav-link" href="#helpcenter-section">Centro de ayuda</a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
         <section id="main-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <h1 class="scripsi-h1">Scripsi it</h1>
                         <p class="scripsi-p mb-4">Scripsi it es una plataforma de escritura colaborativa que permite a
                             los
@@ -46,13 +46,13 @@
                             organizar sus rutinas y tareas!
                         </p>
                         <div class="main-btn-container">
-                            <a href="#" class="scripsi-btn scripsi-scale">Registrate, ¡es gratis!</a>
+                            <a href="#" class="scripsi-btn">Registrate, ¡es gratis!</a>
                             <a href="#" class="scripsi-btn-secondary scripsi-fill-down">Bajá la app</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 offset-md-1">
-                        <img class="logo-img mt-4 mt-md-0 scripsi-scale" src="img/scripsi-img.png" alt="Scripsi it"
-                            title="Logo de Scripsi it" class="img-fluid">
+                    <div class="col-12 col-md-5 offset-md-1 d-none d-lg-block">
+                        <img class="img-fluid logo-img mt-4 mt-md-0 scripsi-scale" src="img/scripsi-img.png"
+                            alt="Scripsi it" title="Logo de Scripsi it">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,12 @@
             <div class="container">
                 <div class="row">
                     <div class="project-overview-container col-12 mt-4">
-                        <h2 class="scripsi-h2 mb-2">El proyecto</h2>
+                        <div class="project-overview-title">
+                            <h2 class="scripsi-h2 mb-2">El proyecto</h2>
+                            <span class="scripsi-span"><a href="#project-section">Enterate de más <i
+                                        class="fa-solid fa-download"></i>
+                                    (.PDF)</a></span>
+                        </div>
                         <div id="scripsi-carousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -104,8 +109,8 @@
                                     <p class="scripsi-p ms-md-4 mb-2">Los recordatorios y notas se pueden agrupar en
                                         categorías
                                         predefinidas. Las categorías son:</p>
-                                    <ul>
-                                        <li class="project-li">
+                                    <ul class="project-ul">
+                                        <li class="project-li ms-md-3">
                                             Laborales:
                                             <p class="scripsi-p mt-0">categoría que se vincula con rutinas puramente del
                                                 trabajo o proyectos
@@ -115,7 +120,7 @@
                                                 de todo.
                                             </p>
                                         </li>
-                                        <li class="project-li">
+                                        <li class="project-li ms-md-3">
                                             Caseras:
                                             <p class="scripsi-p mt-0">
                                                 son las típicas «notas del refrigerador», una categoría orientada a los
@@ -124,14 +129,14 @@
                                                 como en la categoría anterior.
                                             </p>
                                         </li>
-                                        <li class="project-li">
+                                        <li class="project-li ms-md-3">
                                             Ocio:
                                             <p class="scripsi-p mt-0">
                                                 categoría orientada al cumplimiento de lo que está fuera de los deberes
                                                 habituales, o simplemente ideas para el tiempo libre.
                                             </p>
                                         </li>
-                                        <li class="project-li">
+                                        <li class="project-li ms-md-3">
                                             Familiares:
                                             <p class="scripsi-p mt-0">
                                                 similar a la categoría Laboral, se centra en la posibilidad de crear
@@ -143,38 +148,59 @@
                                     </ul>
                                 </div>
                                 <div class="carousel-item">
-                                    <h3 class="scripsi-h3 mb-2 ms-md-4">¿De qué se trata?</h3>
-                                    <p class="scripsi-p ms-md-4">
-                                        <b><i>Scripsi it</i></b> (expresión en latín que literalmente se traduce como
-                                        «Yo lo
-                                        escribí») se trata
-                                        de una aplicación de <b>software orientado a la productividad</b> cuyo principal
-                                        propósito
-                                        es
-                                        la toma de notas y definición de recordatorios para agilizar las tareas diarias
-                                        (pero no
-                                        limitado a estas) de sus usuarios, con una amplia posibilidad de adaptarse al
-                                        contexto.
-                                        Es una aplicación multiplataforma en la cual los usuarios, ya sea en grupo o
-                                        individualmente, acuden para organizar sus rutinas y/o tareas a coronar, además
-                                        de
-                                        contar
-                                        con la posibilidad de realizar anotaciones rápidas o guardar extensas cadenas de
-                                        texto
-                                        con
-                                        diversos formatos en un espacio al alcance de sus dispositivos.
-                                        En su modalidad de uso básica, la aplicación cumpliría con la función de hacer
-                                        notas
-                                        sueltas y anotaciones temporales; modalidad que está limitada a poder crear
-                                        hasta
-                                        diez
-                                        notas de doscientos cincuenta caracteres cada una y definir hasta siete
-                                        recordatorios.
-                                        En
-                                        su modalidad normal, a la que se accede a través de la creación de una cuenta de
-                                        usuario,
-                                        las posibilidades se amplían.
-                                    </p>
+                                    <h3 class="scripsi-h3 ms-md-4">¿Qué puede hacer?</h3>
+                                    <h4 class="scripsi-h4 m-auto ms-md-5">Recopilación de funcionalidades</h4>
+                                    <ul class="project-ul">
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Scripsi it tiene la posibilidad de adaptarse al contexto y silenciará o
+                                                atenuará la forma en la que se muestra la notificación, por lo que, si
+                                                estás
+                                                viendo una película en un dispositivo, elegirá mostrarse en otro
+                                                designado,
+                                                o directamente mostrarse sin sonido.
+                                            </p>
+                                        </li>
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Crear categorías de recordatorios (laborales, ocio, familiares,
+                                                etcétera).
+                                            </p>
+                                        </li>
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Desactivar los recordatorios laborales los días en los que el usuario
+                                                marque
+                                                como días libres (días libres se comprende por días en los que no se
+                                                realizarán tareas fijas como trabajo, clases, etcétera).
+                                            </p>
+                                        </li>
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Poner a Scripsi it en modo suspenso, y suspender toda acción por un
+                                                determinado periodo de tiempo.
+                                            </p>
+                                        </li>
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Configurar los colores de las notas con base en la urgencia del
+                                                recordatorio.
+                                            </p>
+                                        </li>
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Visualizar el progreso de sus actividades de una forma fácil de
+                                                comprender.
+
+                                            </p>
+                                        </li>
+                                        <li class="project-li ms-md-5">
+                                            <p class="scripsi-p">
+                                                Asignar tareas y recordatorios a otros miembros de un espacio de
+                                                trabajo.
+                                            </p>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -184,8 +210,69 @@
         </section>
         <!-- /project-section -->
 
+        <!-- aboutus-section -->
+        <section id="aboutus-section">
+            <div class="container">
+                <h2 class="scripsi-h2">Nosotros</h2>
+            </div>
+        </section>
+        <!-- /aboutus-section -->
 
+        <!-- contact-section -->
+        <section id="contact-section">
+            <div class="container">
+                <h2 class="scripsi-h2">Contacto</h2>
+                <form class="form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="scripsi-label" for="name">Nombre</label>
+                                <input class="scripsi-input form-control" type="text" id="name" name="name"
+                                    placeholder="Nombre" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="scripsi-label" for="email">Correo electrónico</label>
+                                <input class="scripsi-input form-control" type="email" id="email" name="email"
+                                    placeholder="Correo electrónico" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="scripsi-label" for="message">Mensaje</label>
+                        <textarea class="scripsi-textarea form-control" id="message" name="message" rows="3"
+                            placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="scripsi-btn mt-2 mb-2 w-100">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <!-- /contact-section -->
     </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-left">
+                        <p class="scripsi-p">© 2021 Scripsi it</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-right">
+                        <a href="https://www.facebook.com/Scripsi-it-103100000000000" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/scripsi_it/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/ScripsiIt" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
