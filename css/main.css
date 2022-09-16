@@ -74,11 +74,11 @@ body {
 
 /* aboutus-section */
 #aboutus-section {
-    height: 80vh;
+    height: 60vh;
     background-color: #f1f9ff;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     display: flex;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     overflow: hidden;
 }
 
@@ -92,7 +92,7 @@ body {
     color: #222;
     border-radius: 0 20px 20px 20px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.59);
-    bottom: -320px;
+    bottom: -280px;
     transition: all 0.5s ease-in-out;
 }
 
