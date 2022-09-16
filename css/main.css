@@ -247,7 +247,7 @@ body {
     #aboutus-section {
         align-items: center;
         overflow: visible;
-        height: 280vh;
+        height: 300vh;
     }
 
     .gallery-container {
@@ -311,7 +311,7 @@ body {
     }
 
     #aboutus-section {
-        height: 240vh;
+        height: 300vh;
     }
 }
 
