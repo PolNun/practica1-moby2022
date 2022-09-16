@@ -97,7 +97,7 @@ body {
 }
 
 .folder:before {
-    content: 'Nosotros';
+    content: 'EQUIPO';
     width: 30%;
     height: 2em;
     border-radius: 0 20px 0 0;
