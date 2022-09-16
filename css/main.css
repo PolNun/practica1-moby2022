@@ -128,7 +128,7 @@ body {
 }
 
 .folder:hover {
-    bottom: 80px;
+    bottom: 150px;
 }
 
 /* contact-section */
@@ -136,6 +136,23 @@ body {
     height: max-content;
     background-color: #FFF;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+#footer {
+    height: max-content;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+#footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-ul i {
+    height: 1em;
+    width: 1em;
+    margin: 0 0.5em;
 }
 
 /* x-large desktop view */
@@ -147,7 +164,7 @@ body {
     .gallery-container {
         width: 100%;
     }
-    
+
     .gallery-container img {
         width: 300px;
         height: 300px;
@@ -170,6 +187,22 @@ body {
 
     #project-section {
         height: 100ch;
+    }
+
+    .gallery-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .folder {
+        width: 100%;
+        height: 400px;
+        bottom: -100px;
+    }
+
+    .folder:hover {
+        bottom: 150px;
     }
 }
 
@@ -214,7 +247,7 @@ body {
     #aboutus-section {
         align-items: center;
         overflow: visible;
-        height: 200vh;
+        height: 210vh;
     }
 
     .gallery-container {
@@ -238,6 +271,48 @@ body {
         height: max-content;
         top: 0;
     }
+
+    .social-ul i {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .scripsi-h1 {
+        font-size: 2.5em;
+    }
+
+    .scripsi-h2 {
+        font-size: 2em;
+    }
+
+    .scripsi-h3 {
+        font-size: 1.5em;
+    }
+
+    .scripsi-h4 {
+        font-size: 1.2em;
+    }
+
+    .scripsi-p {
+        font-size: 1em;
+    }
+
+    .project-li {
+        font-size: 1em;
+    }
+
+    .project-btn-container {
+        flex-direction: column;
+    }
+
+    .project-btn-container a {
+        margin: 0;
+    }
+
+    #aboutus-section {
+        height: 240vh;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -250,7 +325,7 @@ body {
     }
 
     #aboutus-section {
-        height: 210vh;
+        height: 350vh;
     }
 
     .folder {
