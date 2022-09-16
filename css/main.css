@@ -74,12 +74,28 @@ body {
 
 /* aboutus-section */
 #aboutus-section {
-    height: 60vh;
+    height: 100vh;
     background-color: #f1f9ff;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     display: flex;
-    /* align-items: flex-end; */
     overflow: hidden;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-container img {
+    width: 250px;
+    height: 250px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
 }
 
 .folder {
@@ -92,7 +108,7 @@ body {
     color: #222;
     border-radius: 0 20px 20px 20px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.59);
-    bottom: -280px;
+    bottom: -160px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -112,7 +128,7 @@ body {
 }
 
 .folder:hover {
-    bottom: -50px;
+    bottom: 80px;
 }
 
 /* contact-section */
@@ -120,6 +136,22 @@ body {
     height: max-content;
     background-color: #FFF;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* x-large desktop view */
+@media (min-width: 1400px) {
+    #aboutus-section {
+        height: 80vh;
+    }
+
+    .gallery-container {
+        width: 100%;
+    }
+    
+    .gallery-container img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 /* desktop view */
@@ -182,7 +214,24 @@ body {
     #aboutus-section {
         align-items: center;
         overflow: visible;
-        height: 100vh;
+        height: 200vh;
+    }
+
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery-container img {
+        width: 100%;
+        margin: 10px 0;
+        filter: grayscale(100%);
+    }
+
+    .gallery-container img:hover {
+        filter: grayscale(0);
+        transform: scale(1);
     }
 
     .folder {
@@ -201,7 +250,7 @@ body {
     }
 
     #aboutus-section {
-        height: 110vh;
+        height: 210vh;
     }
 
     .folder {
@@ -222,6 +271,11 @@ body {
 
     .navbar-toggler {
         border: none;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #d1d1d1ba;
+        border-radius: 6px;
     }
 
     .logo-img {

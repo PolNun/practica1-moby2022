@@ -209,13 +209,6 @@ a:active {
         color: #fff;
     }
 
-    .scripsi-nav:hover {
-        background: linear-gradient(90deg, #0a416a 0%, #1688ab 0%, #076d96 30%, #39a3a2 70%, #51b59a 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
     .navbar-nav a {
         color: #fff;
     }
@@ -272,11 +265,9 @@ a:active {
 
     .scripsi-btn {
         background-color: #51b59a;
-        color: #fff;
     }
 
     .scripsi-btn:hover {
         background-color: #0a416a;
-        color: #FFF;
     }
 }
