@@ -202,3 +202,76 @@ a:active {
 .scripsi-scale:hover {
     transform: scale(1.05);
 }
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    .scripsi-nav {
+        color: #fff;
+    }
+
+    .scripsi-nav:hover {
+        background: linear-gradient(90deg, #0a416a 0%, #1688ab 0%, #076d96 30%, #39a3a2 70%, #51b59a 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .navbar-nav a {
+        color: #fff;
+    }
+
+    .navbar-nav a:hover {
+        color: #39a3a2;
+    }
+
+    .scripsi-h3 {
+        color: #fff;
+    }
+
+    .scripsi-h4 {
+        color: #fff;
+    }
+
+    .scripsi-p {
+        color: #d7d7d7;
+    }
+
+    .scripsi-span {
+        color: #fff;
+    }
+
+    .scripsi-span a {
+        color: #FFF;
+    }
+
+    .scripsi-span a:hover {
+        color: #39a3a2;
+    }
+
+    .scripsi-input {
+        background-color: #222;
+        color: #ffffff80;
+    }
+
+    .scripsi-input:focus {
+        border: 1px solid #51b59a;
+        background-color: #222;
+        color: #FFF;
+    }
+
+    .scripsi-textarea {
+        background-color: #222;
+        color: #ffffff80;
+    }
+
+    .scripsi-textarea:focus {
+        border: 1px solid #51b59a;
+        background-color: #222;
+        color: #FFF;
+    }
+
+    .scripsi-btn {
+        background-color: #51b59a;
+        color: #fff;
+    }
+}

@@ -14,9 +14,6 @@ CSS principal
     outline: solid #f00 1px !important; */
 }
 
-
-
-
 body {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -81,12 +78,13 @@ body {
     background-color: #f1f9ff;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    overflow: hidden;
 }
 
 .folder {
     width: 90%;
-    height: max-content;
+    height: 350px;
     margin: 0 auto;
     margin-top: 50px;
     position: relative;
@@ -94,6 +92,8 @@ body {
     color: #222;
     border-radius: 0 20px 20px 20px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.59);
+    bottom: -320px;
+    transition: all 0.5s ease-in-out;
 }
 
 .folder:before {
@@ -109,6 +109,10 @@ body {
     position: absolute;
     top: -30px;
     left: 0px;
+}
+
+.folder:hover {
+    bottom: -50px;
 }
 
 /* contact-section */
@@ -174,6 +178,17 @@ body {
         list-style: none;
         text-align: center;
     }
+
+    #aboutus-section {
+        align-items: center;
+        overflow: visible;
+        height: 100vh;
+    }
+
+    .folder {
+        height: max-content;
+        top: 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -191,5 +206,52 @@ body {
 
     .folder {
         width: 100%;
+    }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #FFF;
+    }
+
+    .navbar {
+        background-color: #000;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .logo-img {
+        width: 100%;
+    }
+
+    #main-section {
+        background-color: #333;
+    }
+
+    .project-li {
+        color: #FFF;
+    }
+
+    #aboutus-section {
+        background-color: #333;
+    }
+
+    #contact-section {
+        background-color: #000;
+    }
+
+    .folder {
+        background-color: #555;
+        color: #FFF;
+    }
+
+    .folder::before {
+        background-color: rgb(255, 255, 255);
+        border-bottom: 3px solid #888;
+        color: #000;
     }
 }
