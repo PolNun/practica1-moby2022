@@ -8,5 +8,6 @@ Puntos cubiertos:
 * [x] Home
 * [x] Contacto
 * [ ] Galería
+* [ ] Footer
 * [ ] Despliegue
 * [x] Detectar modo oscuro
