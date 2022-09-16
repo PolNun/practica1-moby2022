@@ -77,25 +77,38 @@ body {
 
 /* aboutus-section */
 #aboutus-section {
-    height: fit-content;
+    height: 80vh;
     background-color: #f1f9ff;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
 }
 
-.aboutus-container {
-    margin: 20px 0;
-}
-
-.aboutus-title {
-    background-color: #fff;
-    color: #0a416a;
-    width: 20ch;
-    height: 50px;
-    padding: 1em;
-    border: 1px solid #777;
-    border-radius: 5px 5px 0 0;
+.folder {
+    width: 90%;
+    height: max-content;
+    margin: 0 auto;
+    margin-top: 50px;
     position: relative;
-    top: 3px;
+    background-color: #F2CF65;
+    color: #222;
+    border-radius: 0 20px 20px 20px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.59);
+}
+
+.folder:before {
+    content: 'Nosotros';
+    width: 30%;
+    height: 2em;
+    border-radius: 0 20px 0 0;
+    background-color: #F2B000;
+    border-bottom: 3px solid #FFE8A2;
+    color: #FFF;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    left: 0px;
 }
 
 /* contact-section */
@@ -105,6 +118,7 @@ body {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* desktop view */
 @media screen and (max-width: 992px) {
     .scripsi-nav {
         position: sticky;
@@ -125,6 +139,7 @@ body {
 
 /* mobile view */
 @media screen and (max-width: 768px) {
+
     .scripsi-h1,
     .scripsi-h2,
     .scripsi-h3,
