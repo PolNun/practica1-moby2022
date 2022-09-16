@@ -66,6 +66,32 @@ Acá van clases y propiedades que son comunes entre algunos elementos
     color: #0a416a;
 }
 
+.scripsi-multicolor-text {
+    animation: color-change 4s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: #0a416a;
+    }
+
+    25% {
+        color: #1688ab;
+    }
+
+    50% {
+        color: #076d96;
+    }
+
+    75% {
+        color: #39a3a2;
+    }
+
+    100% {
+        color: #51b59a;
+    }
+}
+
 a {
     color: #1688ab;
 }

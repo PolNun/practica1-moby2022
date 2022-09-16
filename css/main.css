@@ -184,4 +184,12 @@ body {
     .scripsi-span {
         font-size: 14px;
     }
+
+    #aboutus-section {
+        height: 110vh;
+    }
+
+    .folder {
+        width: 100%;
+    }
 }
